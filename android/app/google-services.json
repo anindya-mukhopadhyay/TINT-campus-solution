@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699495340694",
+    "project_id": "tint-campus-solution",
+    "storage_bucket": "tint-campus-solution.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699495340694:android:0a53325300d3306bc340b7",
+        "android_client_info": {
+          "package_name": "com.mycompany.tintcampussolution"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv-3OYLb_WOAV3xTfJbooFkg_SMN_pHTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -319,7 +319,7 @@ class _SignUpWidgetState extends State<SignUpWidget>
                                                             .fromSTEB(0.0, 4.0,
                                                                 0.0, 24.0),
                                                     child: Text(
-                                                      'This App is Created By Anindya',
+                                                      'This App is Created By Gods',
                                                       textAlign:
                                                           TextAlign.start,
                                                       style: FlutterFlowTheme

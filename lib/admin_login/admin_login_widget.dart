@@ -7,23 +7,23 @@ import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'sign_up_copy_model.dart';
-export 'sign_up_copy_model.dart';
+import 'admin_login_model.dart';
+export 'admin_login_model.dart';
 
 /// 1st page
-class SignUpCopyWidget extends StatefulWidget {
-  const SignUpCopyWidget({super.key});
+class AdminLoginWidget extends StatefulWidget {
+  const AdminLoginWidget({super.key});
 
-  static String routeName = 'SignUpCopy';
-  static String routePath = '/signUpCopy';
+  static String routeName = 'AdminLogin';
+  static String routePath = '/adminLogin';
 
   @override
-  State<SignUpCopyWidget> createState() => _SignUpCopyWidgetState();
+  State<AdminLoginWidget> createState() => _AdminLoginWidgetState();
 }
 
-class _SignUpCopyWidgetState extends State<SignUpCopyWidget>
+class _AdminLoginWidgetState extends State<AdminLoginWidget>
     with TickerProviderStateMixin {
-  late SignUpCopyModel _model;
+  late AdminLoginModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -32,7 +32,7 @@ class _SignUpCopyWidgetState extends State<SignUpCopyWidget>
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => SignUpCopyModel());
+    _model = createModel(context, () => AdminLoginModel());
 
     _model.tabBarController = TabController(
       vsync: this,
@@ -319,7 +319,7 @@ class _SignUpCopyWidgetState extends State<SignUpCopyWidget>
                                                             .fromSTEB(0.0, 4.0,
                                                                 0.0, 24.0),
                                                     child: Text(
-                                                      'This App is Created By Anindya',
+                                                      'This App is Created By Glitch Gods',
                                                       textAlign:
                                                           TextAlign.start,
                                                       style: FlutterFlowTheme
@@ -351,7 +351,7 @@ class _SignUpCopyWidgetState extends State<SignUpCopyWidget>
                                                         decoration:
                                                             InputDecoration(
                                                           labelText:
-                                                              'Student ID',
+                                                              'Employee ID',
                                                           labelStyle:
                                                               FlutterFlowTheme.of(
                                                                       context)
@@ -580,7 +580,7 @@ class _SignUpCopyWidgetState extends State<SignUpCopyWidget>
                                                         decoration:
                                                             InputDecoration(
                                                           labelText:
-                                                              'College Email',
+                                                              'Office Email',
                                                           labelStyle:
                                                               FlutterFlowTheme.of(
                                                                       context)
@@ -1162,7 +1162,7 @@ class _SignUpCopyWidgetState extends State<SignUpCopyWidget>
                                                       ),
                                                     ),
                                                   Text(
-                                                    'Welcome Student',
+                                                    'Welcome Admin',
                                                     textAlign: TextAlign.start,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -1211,7 +1211,7 @@ class _SignUpCopyWidgetState extends State<SignUpCopyWidget>
                                                         decoration:
                                                             InputDecoration(
                                                           labelText:
-                                                              'College Email',
+                                                              'Office Email',
                                                           labelStyle:
                                                               FlutterFlowTheme.of(
                                                                       context)

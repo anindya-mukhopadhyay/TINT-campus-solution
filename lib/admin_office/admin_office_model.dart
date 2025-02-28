@@ -1,8 +1,9 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'attendence_widget.dart' show AttendenceWidget;
+import '/index.dart';
+import 'admin_office_widget.dart' show AdminOfficeWidget;
 import 'package:flutter/material.dart';
 
-class AttendenceModel extends FlutterFlowModel<AttendenceWidget> {
+class AdminOfficeModel extends FlutterFlowModel<AdminOfficeWidget> {
   @override
   void initState(BuildContext context) {}
 

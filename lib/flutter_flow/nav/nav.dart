@@ -100,26 +100,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => ProfileWidget(),
         ),
         FFRoute(
-          name: EditProfileWidget.routeName,
-          path: EditProfileWidget.routePath,
-          builder: (context, params) => EditProfileWidget(),
-        ),
-        FFRoute(
-          name: CalenderWidget.routeName,
-          path: CalenderWidget.routePath,
-          builder: (context, params) => CalenderWidget(),
-        ),
-        FFRoute(
-          name: AttendenceWidget.routeName,
-          path: AttendenceWidget.routePath,
-          builder: (context, params) => AttendenceWidget(),
-        ),
-        FFRoute(
-          name: AttendenceSwiftWidget.routeName,
-          path: AttendenceSwiftWidget.routePath,
-          builder: (context, params) => AttendenceSwiftWidget(),
-        ),
-        FFRoute(
           name: StratingWidget.routeName,
           path: StratingWidget.routePath,
           builder: (context, params) => StratingWidget(),
@@ -130,17 +110,26 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => UserSearchWidget(),
         ),
         FFRoute(
-          name: SignUpCopyWidget.routeName,
-          path: SignUpCopyWidget.routePath,
-          builder: (context, params) => SignUpCopyWidget(),
+          name: AdminLoginWidget.routeName,
+          path: AdminLoginWidget.routePath,
+          builder: (context, params) => AdminLoginWidget(),
         ),
         FFRoute(
-          name: YoutubeWidget.routeName,
-          path: YoutubeWidget.routePath,
-          builder: (context, params) => YoutubeWidget(),
+          name: AdminOfficeWidget.routeName,
+          path: AdminOfficeWidget.routePath,
+          builder: (context, params) => AdminOfficeWidget(),
+        ),
+        FFRoute(
+          name: DocUploadWidget.routeName,
+          path: DocUploadWidget.routePath,
+          builder: (context, params) => DocUploadWidget(),
+        ),
+        FFRoute(
+          name: CcformWidget.routeName,
+          path: CcformWidget.routePath,
+          builder: (context, params) => CcformWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
-      observers: [routeObserver],
     );
 
 extension NavParamExtensions on Map<String, String?> {

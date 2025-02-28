@@ -8,7 +8,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'strating_model.dart';
 export 'strating_model.dart';
 
-/// strating page
+/// strating  page
 class StratingWidget extends StatefulWidget {
   const StratingWidget({super.key});
 
@@ -260,7 +260,7 @@ class _StratingWidgetState extends State<StratingWidget>
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),
                         child: Text(
-                          'Techno India Group',
+                          'Techno International New Town\n                         (TINT)',
                           style: FlutterFlowTheme.of(context)
                               .displaySmall
                               .override(

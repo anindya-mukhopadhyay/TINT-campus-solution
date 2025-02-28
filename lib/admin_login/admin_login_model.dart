@@ -1,9 +1,9 @@
 import '/flutter_flow/flutter_flow_util.dart';
 import '/index.dart';
-import 'sign_up_copy_widget.dart' show SignUpCopyWidget;
+import 'admin_login_widget.dart' show AdminLoginWidget;
 import 'package:flutter/material.dart';
 
-class SignUpCopyModel extends FlutterFlowModel<SignUpCopyWidget> {
+class AdminLoginModel extends FlutterFlowModel<AdminLoginWidget> {
   ///  State fields for stateful widgets in this page.
 
   // State field(s) for TabBar widget.

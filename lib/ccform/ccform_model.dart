@@ -1,8 +1,8 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'youtube_widget.dart' show YoutubeWidget;
+import 'ccform_widget.dart' show CcformWidget;
 import 'package:flutter/material.dart';
 
-class YoutubeModel extends FlutterFlowModel<YoutubeWidget> {
+class CcformModel extends FlutterFlowModel<CcformWidget> {
   @override
   void initState(BuildContext context) {}
 
